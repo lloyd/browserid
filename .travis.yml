@@ -23,9 +23,7 @@ notifications:
     - jrgm@mozilla.com
 
 env:
- - WHAT_TESTS=front MYSQL_USER=root
- - WHAT_TESTS=back_mysql MYSQL_USER=root
- - WHAT_TESTS=back
+ - LOG_TO_CONSOLE=1 WHAT_TESTS=back
 
 mysql:
   adapter: mysql2
